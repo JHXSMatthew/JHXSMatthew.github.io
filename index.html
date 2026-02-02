@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<h1>最新文章</h1>
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
@@ -16,3 +18,8 @@ layout: default
     </article>
   {% endfor %}
 </div>
+
+<h2>近期亮点</h2>
+<ul>
+  <li><strong>2026年2月2日</strong>: 发布了 js-tail-recursion-opt-plugin v1.0.0，这是一个现代的 Babel 插件，能够在编译时自动优化尾递归函数为高效的循环，防止栈溢出。</li>
+</ul>
